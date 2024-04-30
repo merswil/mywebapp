@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="./regstyle.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="signup-page">
+            <div class="signup-form-container">
+                <h1 class="signup-heading">Registration Sucessful</h1>
+                <p class="signup-dics" id="username"></p>
+            </div>
+            <div class="image"></div>
+        </section>
+    </div>
+
+    <script>
+        // Get username from localStorage and display it
+        const username = localStorage.getItem('username');
+        document.getElementById('username').textContent = `Welcome, ${username}!`;
+    </script>
+</body>
+</html>

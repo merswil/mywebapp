@@ -1,0 +1,144 @@
+/* Add your CSS styles here */
+html {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #5c5c5c;
+    color: #ffffff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.signup-form-container {
+    width: 50%;
+    padding: 4rem;
+}
+
+
+
+
+.signup-heading {
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+.signup-dics {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sign-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.radio-catagory {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.radio-container {
+    display: inline-block;
+}
+
+.radio-container input[type="radio"] {
+    display: none;
+}
+
+.radio-container label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radio-container input[type="radio"]:checked + label {
+    background-color: #B1F041;
+    color: #161616;
+}
+
+.new-user-name,
+.new-user-password,
+.new-user-password2 {
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.error-msg {
+    color: #f7f7f7;
+}
+
+.signup-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #B1F041;
+    color: #161616;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./Mask\ group.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust the opacity as needed */
+    z-index: -1;
+}
+
+
+.signin-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signin-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .signin-link a:hover {
+    text-decoration: underline;
+  }
+  
+
+  #message {
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
