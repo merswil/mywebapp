@@ -10,9 +10,9 @@ document.querySelector('#registrationForm').addEventListener('click', () => {
     if (user) {
       // Redirect to the appropriate page based on the user's role
       if (user.role === 'team-leader') {
-        window.location.href = 'Event.html';
+        window.location.href = 'Myevent.html';
       } else if (user.role === 'Member') {
-        window.location.href = 'sportpage.html';
+        window.location.href = 'welcome.html';
       }
     } else {
       alert('Invalid username or password');

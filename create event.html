@@ -1,0 +1,193 @@
+<Doctype HTML>
+    <html>
+        <head>
+            <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+            <!-- Bootstrap CSS -->
+            
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+            
+        
+            <title>
+                Sports Club
+            </title>
+          </head>
+          <body style="background-color: black;">
+            <header>
+                <nav class="navbar navbar-expand-lg bg-black">
+                    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <!-- <li class="nav-item" style="margin-right: 50px;">
+                            <a class="nav-link active" aria-current="page" href="#">CREATE EVENTS
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">MY EVENTS</a>
+                          </li> -->
+
+                          <li class="nav-item" style="margin-right: 50px;">
+                            <a class="nav-link active" aria-current="page" href="create event.html">CREATE EVENTS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Myevent.html">MY EVENTS</a>
+                          </li>
+
+                          
+                          <li class="nav-item">
+                            <a href="#"><img src="Ellipse 55.png" style="margin-left: 30px;">
+                            </a>
+                          </li>
+
+                          
+                          
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+
+          <div class="container">
+             <div class="wrapper">
+              <p  class="don" style="color: white; font-size: 30px; margin-right: 300px;">Create Event</p>
+              <div class="calendar-header">
+                <div class="icons">
+                    <span id="prev"><i class="fas fa-chevron-left"></i></span>
+                
+                     <p class="current-date">Month Year</p>
+                
+                    <span id="next"><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+              
+                
+               
+              
+              <div class="calendar">
+                <ul class="weeks">
+                  <li>Sun</li>
+                  <li>Mon</li>
+                  <li>Tue</li>
+                  <li>Wed</li>
+                  <li>Thu</li>
+                  <li>Fri</li>
+                  <li>Sat</li>
+                </ul>
+                <ul class="days"></ul>
+              </div>
+            </div>
+            <form class="row g-3" style=" width: 40%;">
+              <div class="col-md-12" style="margin-top: 80px;">
+                <label for="inputEvents"  class="form-label" style="color: AEAEAE;">Event Name</label>
+                <input type="text" class="form-control" id="inputEvents" placeholder="Enter Event Name">
+              </div>
+              <div class="col-md-5">
+                <!-- Time -->
+                <label for="time" style="color: AEAEAE;">Time</label>
+                <div class="input-group date" id="timePicker">
+                    <input type="text" class="form-control timePicker">
+                    <span class="input-group-addon" style="background-color: white;"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                </div>
+            </div>
+             <div class="col-md-5">
+                <!-- Duration -->
+                <label for="duration" style="color: AEAEAE; margin-left: 70px;">Duration</label>
+                <div class="input-group" style="margin-left: 70px;">
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected></option>
+                        <option value="1">30m</option>
+                        <option value="2">1hr</option>
+                        <option value="3">1hr 30m</option>
+                        <option value="4">2hr</option>
+                    </select>
+                </div>
+             </div>
+             <div class="col-md-5 create-team">
+              <label for="team" style="color: AEAEAE;" >Create Team</label>
+              <input type="text" class="form-label" id="create team" placeholder="Team Name" style="height: 38px;">
+
+             </div>
+             <div class="col-md-5 set-team">
+              <label for="duration" style="color: AEAEAE; margin-left: 70px;"> Set Team</label>
+                <div class="input-group" style="margin-left: 70px;">
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+
+                    </select>
+                  
+
+                </div>
+             </div>
+             <div class="col-md-12 Location">
+              <label for="inputEvents"  class="form-label" style="color: AEAEAE;">Location</label>
+              <input type="text" class="form-control" id="inputEvents" placeholder="Add Event Location">
+            </div>
+            <div class="col-md-12 Description" >
+              <label for="inputEvents"  class="form-label" style="color: AEAEAE;">Add Description</label>
+              <input type="text" class="form-control" id="inputEvents" placeholder="Add Description..."style="height: 80px;">
+            </div>
+            <div class="col-md-5 button">
+              <button type="submit" class="btn btn-primary" style="width: 150px; color: lightgreen; background-color: black; border-color: lightgreen;">Cancel</button>
+            </div>
+            <div class="col-md-5 create-button">
+              <button type="submit" class="btn btn-primary" style="margin-left: 65px; width: 150px; color: black; background-color: lightgreen; border-color: lightgreen;">Create Event</button>
+            </div>
+
+            
+
+                
+
+              
+              
+              
+              
+              
+          </form>
+
+            
+              
+          
+          <!-- Bootstrap and jQuery JS -->
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+          <!-- Bootstrap DateTimePicker JS -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
+          <script>
+            var firstOpen = true;
+            var time;
+            $('#timePicker').datetimepicker({
+                useCurrent: false,
+                format: "hh:mm A"
+            }).on('dp.show', function() {
+                if(firstOpen) {
+                    time = moment().startOf('day');
+                    firstOpen = false;
+                } else {
+                    time = "01:00 PM"
+                }        
+                $(this).data('DateTimePicker').date(time);
+            });
+        </script> 
+        <script src="create event.js"></script>
+      </body>   
+    </html>
