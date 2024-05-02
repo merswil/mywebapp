@@ -10,7 +10,7 @@ document.querySelector('#registrationForm').addEventListener('click', () => {
     if (user) {
       // Redirect to the appropriate page based on the user's role
       if (user.role === 'team-leader') {
-        window.location.href = 'Myevent.html';
+        window.location.href = 'create event.html';
       } else if (user.role === 'Member') {
         window.location.href = 'welcome.html';
       }
