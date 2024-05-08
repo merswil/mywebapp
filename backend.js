@@ -12,7 +12,7 @@ document.querySelector('#registrationForm').addEventListener('click', () => {
       if (user.role === 'team-leader') {
         window.location.href = 'create event.html';
       } else if (user.role === 'Member') {
-        window.location.href = 'welcome.html';
+        window.location.href = 'member.html';
       }
     } else {
       alert('Invalid username or password');
