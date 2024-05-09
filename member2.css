@@ -1,0 +1,401 @@
+body{
+    background-color: #000;
+    font-family: "Inter";
+}
+.navbar-list{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    justify-content: right;
+    padding: 1rem 5rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+}
+
+.icon {
+    margin-left: 30rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("Ellipse 50.png");
+}
+
+.event {
+    background: #161616;
+    display: flex;
+}
+
+.event-container {
+    color:#fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5rem 3rem;
+   
+}
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-header h2 {
+    font-size: 40px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.radio-box {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+    background-color: #161616;
+    border: 1px solid #AEAEAE;
+    color:#AEAEAE;
+    font-size: 20px;
+}
+
+.radio-input {
+    display: none;
+}
+
+.radio-label {
+    margin-right: 20px; 
+}
+
+
+.radio-item1 input[type="radio"]:checked + label {
+    background-color: #AEAEAE;
+    color: #fff;
+  }
+
+.radio-item2 input[type="radio"]:checked + label {
+    background-color: #AEAEAE;
+    color: #fff;
+  }
+
+.radio-item3 input[type="radio"]:checked + label {
+    background-color: #AEAEAE;
+    color: #fff;
+  }
+
+.radio-item4 input[type="radio"]:checked + label {
+    background-color: #AEAEAE;
+    color: #fff;
+  }
+
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #1e1e1e;
+
+}
+
+.event-item-dics {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.time{
+    padding: 0.3rem 0 0 1rem;
+}
+.day{
+    margin: 0;
+    font-size: 20px;
+}
+
+.n_date{
+    margin: 0;
+    font-size: 40px;
+}
+
+.vertical {
+    height: 80px;
+    width: 2px;
+    background: #AEAEAE;
+}
+
+.event-item-heading {
+    display: flex;
+    font-size: 24px;
+    margin: 0;
+}
+
+.event-item-heading p {
+    margin: 0;
+}
+
+
+.date {
+    display: flex;
+    align-self: center;
+    font-size: 20px;
+    gap: 1rem;
+    color: #AEAEAE;
+    padding-bottom: 0;
+}
+
+.date i {
+    padding-top: 1.4rem;
+}
+
+.edit_choice {
+    color:#fff;
+    background-color: #161616;
+    padding: 1rem;
+    font-size: 20px;
+    width: 6rem;
+    border-color: #AEAEAE;
+    border-radius: 5px;
+    margin: 0.6rem 1rem 0 0;
+}
+
+.edit_choice:active {
+    background-color: #B1F041;
+}
+
+.event-participante {
+    /* margin-top: 1rem; */
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.event-participante i {
+    margin-top: 1.3rem;
+}
+
+.team {
+    display: flex;
+    margin-top: 12rem;
+}
+
+.messege {
+    color: #fff;
+}
+
+.chat {
+    color: #fff;
+    width: 396px;
+    height: 36rem;
+    background-color: #1e1e1e;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #B1F041;
+}
+
+.box {
+    width: 346px;
+    background-color: #1e1e1e;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #B1F041;
+    text-align: center;
+    padding: 1rem;
+}
+
+.box1 {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    text-align: center;
+    padding: 1rem;
+}
+
+.box1 i {
+    font-size: 20px;
+    color:#B1F041;
+}
+
+.add-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+  }
+
+.add-button i {
+    color: #B1F041;
+}
+.add-button:hover {
+    color: #0056b3;
+}
+
+.header3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header3 h2 {
+    font-size: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .search {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: #161616;
+    border: 1px solid #AEAEAE;
+    box-shadow: none;
+    color: #AEAEAE;
+    font-size: 20px;
+  }
+ 
+  .bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #B1F041;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .bullet1 {
+    width: 5px;
+    height: 5px;
+    background-color: #B1F041;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+ 
+  .mprofile {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url("Ellipse 58.png");
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .mprofile1 {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url("Ellipse 59.png");
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .mprofile2 {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url("Ellipse 53.png");
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .mprofile3 {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url("Ellipse 52.png");
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .mprofile4 {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url("Ellipse 55.png");
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .mprofile7 {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url("Ellipse 53.png");
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+ 
+  .content {
+    flex: 1;
+    text-align: left;
+  }
+ 
+  .content h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+ 
+ .content p {
+    margin: 5px 0;
+  }
+
+  .status{
+    display: flex;
+    align-items: center;
+  }
+
+  .line {
+    height: 1px;
+    width: 100%;
+    background-color:#B1F041;
+  }
+  
+  .conversation {
+    padding: 1rem 0.8rem;
+    font-size: 18px;
+  }
+
+  .conversation1 {
+    width: 70%;
+    background-color: #AEAEAE;
+    border-radius: 5px;
+  }
+
+  .conversation1 p {
+    padding: 0.5rem 0.7rem;
+  }
+
+  .conversation2 {
+    width: 70%;
+    color:#000;
+    background-color: #B1F041;
+    border-radius: 5px;
+    margin-left: 30%;
+  }
+
+  .conversation2 p {
+    padding: 0.5rem 0.7rem;
+  }
+
+  .conversation3 {
+    width: 70%;
+    background-color: #AEAEAE;
+    border-radius: 5px;
+  }
+
+  .conversation3 p {
+    padding: 0.5rem 0.7rem;
+  }
+
+  .mtext {
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem;
+    border: 1px solid #B1F041;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+  }
